@@ -1,0 +1,35 @@
+footer {
+  height: 120px;
+  width: 100%;
+  // background-color: $dark;
+  // color: $light;
+
+  // #logo {
+  //   font-size: 3em;
+  //   text-align: center;
+  //   display: block;
+  //   line-height: 50px;
+  //   text-decoration: none;
+  //   color: $light;
+  //   font-family: $headingsfont;
+  //   padding-top: 20px;
+  // }
+
+  p {
+    text-align: center;
+  }
+
+  a {
+    // color: $light;
+    display: block;
+    text-align: center;
+  }
+
+  a:hover {
+    // color: $highlight
+  }
+
+  #logo:hover{
+    // color: $highlight
+  }
+}
