@@ -17,7 +17,7 @@ class Header extends React.Component {
             <div id="nav">
             <li>about</li>
             <li>portfolio</li>
-            <li>resume</li>
+            {/* <li>resume</li> */}
             <li>contact</li>
             </div>
           </ul>
