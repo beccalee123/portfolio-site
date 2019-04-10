@@ -15,20 +15,13 @@ class Header extends React.Component {
           </ul>
           <ul>
             <div id="nav">
-            <li>about</li>
-            <li>portfolio</li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#about">about</a></li>
             {/* <li>resume</li> */}
-            <li>contact</li>
+            <li><a href="#contact">contact</a></li>
             </div>
           </ul>
-          
-          
         </nav>
-        
-        {/* <Link to='/'>About</Link> */}
-        {/* <Link>Portfolio</Link> */}
-        {/* <Link>Resume</Link> */}
-        {/* <Link>Contact</Link> */}
       </>
     );
   }

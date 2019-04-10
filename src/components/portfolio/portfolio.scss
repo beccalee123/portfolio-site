@@ -1,4 +1,8 @@
+@import "../../base-styles/variables.scss";
+
 #portfolio{
+
+  border-bottom: 2px solid $highlight;
 
   h2 {
     text-align: center;
@@ -6,7 +10,7 @@
   }
 
   h3 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: $headersfont;
     font-size: 30px;
     text-transform: lowercase;
     text-align: center;
@@ -20,17 +24,16 @@
     div{
       margin: 20px 10%;
       width: 450px;
-      // border: 1px solid black;
 
       h4{
-        font-family: 'Quicksand', sans-serif;
+        font-family: $headersfont;
         font-size: 30px;
         margin-bottom: 10px
       }
 
       img {
         width: 450px;
-        border: 5px solid black;
+        border: 5px solid $dark;
       }
 
       p {
@@ -55,17 +58,16 @@
     div{
       margin: 20px 10%;
       width: 450px;
-      // border: 1px solid black;
 
       h4{
-        font-family: 'Quicksand', sans-serif;
+        font-family: $headersfont;
         font-size: 30px;
         margin-bottom: 10px
       }
 
       img {
         width: 450px;
-        border: 5px solid black;
+        border: 5px solid $dark;
       }
 
       p {

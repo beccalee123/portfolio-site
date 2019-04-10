@@ -1,20 +1,23 @@
+@import "../../base-styles/variables.scss";
+
 nav {
 
   height: 65px;
   width: 100%;
-  background-color: white;
+  background-color: $light;
   position: fixed;
   top: 0;
-  display: grid;
-  grid-template-columns: 30% 1fr;
-  // border: 1px solid red;
+  display: flex;
+  border-bottom: 2px solid $highlight;
 
   #name{
-    font-family: 'Quicksand', sans-serif;
+    font-family: $headersfont;
     font-weight: 300;
     font-size: 60px;
     text-transform: uppercase;
-    margin: 2px 5px 2px 5px;
+    margin: 2px 10px 2px 5px;
+    display: block;
+    min-width: 325px;
   }
 
   div{
@@ -32,11 +35,24 @@ nav {
   #nav {
     line-height: 60px;
     font-size: 20px;
-    // font-weight: 400;
   }
 
-  a:hover {
-    color: blue;
-  }
+}
 
+// Tablet view
+@media screen and (max-width: 800px){
+  
+  nav{
+    height: 120px;
+    flex-direction: column;
+
+    #name {
+      text-align: center;
+    }
+
+    #nav{
+      display: flex;
+      align-content: left;
+    }
+  }
 }

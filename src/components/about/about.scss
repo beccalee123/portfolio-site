@@ -1,8 +1,11 @@
+@import "../../base-styles/variables.scss";
+
 #about{
-  background-color: whitesmoke;
+  background-color: $medium;
   padding: 105px 40px 40px 40px;
   display: grid;
   grid-template-columns: 1fr 50%;
+  border-bottom: 2px solid $highlight;
 
   img {
     max-width: 90%;
