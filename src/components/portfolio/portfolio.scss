@@ -18,11 +18,13 @@
   }
 
   #tech-content{
+    width: 95%;
+    margin: 0px auto;
     display: grid;
     grid-template-columns: 50% 50%;
 
     div{
-      margin: 20px 10%;
+      margin: 20px auto;
       width: 450px;
 
       h4{
@@ -37,7 +39,6 @@
       }
 
       p {
-        width: 450px;
         margin: 10px 0px;
       }
       
@@ -52,12 +53,15 @@
   }
 
   #marketing-content {
+    width: 95%;
+    margin: 0px auto;
     display: grid;
     grid-template-columns: 50% 50%;
 
     div{
-      margin: 20px 10%;
+      margin: 20px auto;
       width: 450px;
+
 
       h4{
         font-family: $headersfont;
@@ -71,10 +75,17 @@
       }
 
       p {
-        width: 450px;
         margin: 10px 0px;
       }
+
+      #market1{
+        height: 125px;
+      }
       
+      #market2{
+        height: 160px;
+      }
+
       span {
         font-weight: 500;
       }
@@ -84,5 +95,95 @@
       }
     }
   }
+}
 
+@media screen and (max-width: 975px) and (min-width: 800px){
+  #portfolio {
+
+    #tech-content{
+
+      div{
+        width: 350px;
+  
+        img {
+          width: 350px;
+        }
+
+        p {
+          width: 350px;
+        }
+      }
+    }
+  
+    #marketing-content {
+  
+      div{
+        width: 350px;
+  
+        img {
+          width: 350px;
+        }
+  
+        p {
+          width: 350px;
+        }
+
+        #market1{
+          height: 160px;
+        }
+        
+        #market2{
+          height: 200px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px){
+  #portfolio {
+
+    #tech-content{
+      display: flex;
+      flex-direction: column;
+      width: 85%;
+      div{
+        width: 100%;
+  
+        img {
+          width: 100%;
+        }
+
+        p {
+          width: 100%;
+        }
+      }
+    }
+  
+    #marketing-content {
+      display: flex;
+      flex-direction: column;
+      width: 85%;
+
+      div{
+        width: 100%;
+  
+        img {
+          width: 100%;
+        }
+
+        p {
+          width: 100%;
+        }
+
+        #market1{
+          height: 100%;
+        }
+        
+        #market2{
+          height: 100%;
+        }
+      }
+    }
+  }
 }
