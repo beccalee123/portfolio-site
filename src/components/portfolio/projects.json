@@ -1,0 +1,38 @@
+[
+  {
+    "title": "DevFund",
+    "slug": "devfund",
+    "github": "https://github.com/jbjbg/devfund-fe",
+    "url": "https://www.devfund.io/",
+    "image": "./images/project1.jpg",
+    "description": "DevFund is a proof-of-concept for a site that helps fund learning resources for new developers looking to break into the industry.",
+    "technologies": ["React", "Sass", "Superagent", "Node.js", "PayPal", "Netlify"]
+  },
+  {
+    "title": "cf-quick-start",
+    "slug": "quick-start",
+    "github": "https://github.com/TannerSeramur/cf-quick-start",
+    "url": "https://www.npmjs.com/package/cf-quick-start",
+    "image": "./images/project1.jpg",
+    "description": "cf-quick-start is a CLI-based project creation npm package that will provide you with fleshed-out, functional starter code in just a few easy steps.",
+    "technologies": ["JavaScript", "Node.js", "npm"]
+  },
+  {
+    "title": "Space Rover",
+    "slug": "space-rover",
+    "github": "https://github.com/hcherewaty/space_rover",
+    "url": "http://www.spacerover.tech/",
+    "image": "./images/project1.jpg",
+    "description": "Space Rover is a mobile-first, educational website about our solar system.",
+    "technologies": ["JavaScript", "Node.js", "HTML", "CSS", "jQuery", "Express", "Postgres", "EJS", "CORS", "Superagent", "Method-override", "Heroku"]
+  },
+  {
+    "title": "Ocean Commotion",
+    "slug": "ocean-commotion",
+    "github": "https://github.com/beccalee123/word-scramble",
+    "url": "http://www.oceancommotion.fun/",
+    "image": "./images/project1.jpg",
+    "description": "Ocean Commotion is a word scramble game with an oceanic theme.",
+    "technologies": ["JavaScript", "HTML", "CSS"]
+  }
+]
