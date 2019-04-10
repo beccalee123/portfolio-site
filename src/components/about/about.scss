@@ -1,3 +1,23 @@
-img {
-  width: 400px;
+#about{
+  background-color: whitesmoke;
+  padding: 105px 40px 40px 40px;
+  display: grid;
+  grid-template-columns: 1fr 50%;
+
+  img {
+    max-width: 90%;
+  }
+
+  #about-content {
+    h2 {
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+
+    p {
+      line-height: 25px;
+      margin: 20px 5% 20px 0px;
+    }
+  }
 }
+
