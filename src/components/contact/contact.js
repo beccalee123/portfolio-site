@@ -1,19 +1,25 @@
 import React from "react";
 
 import '../../base-styles/base.scss';
+import './contact.scss';
+
 
 class Contact extends React.Component {
 
   render() {
     return (
       <>
-        <h2>Get In Touch</h2>
-        <ul>
-          <li>Email</li>
-          <li>Twitter</li>
-          <li>GitHub</li>
-          <li>LinkedIn</li>
-        </ul>
+        <section id="contact">
+          <h2>Get In Touch</h2>
+          <p>Looking to add an ice-cream-loving dev to your team? Have a question about a project? I'd love to talk.</p>
+          <ul>
+            <li><a href="mailto:becca@beccalee.dev"><img src={require('./assets/email.png')} alt="email icon"/></a></li>
+            <li><a href="https://twitter.com/the_becca_lee"><img src={require('./assets/twitter.png')} alt="twitter icon"/></a></li>
+            <li><a href="https://www.linkedin.com/in/beccalee123/"><img src={require('./assets/linkedin.png')} alt="LinkedIn icon"/></a></li>
+            <li><a href="https://github.com/beccalee123"><img src={require('./assets/github.png')} alt="GitHub icon"/></a></li>
+            
+          </ul>
+        </section>
       </>
     );
   }

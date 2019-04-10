@@ -1,35 +1,17 @@
 footer {
-  height: 120px;
+  height: 60px;
   width: 100%;
-  // background-color: $dark;
-  // color: $light;
+  font-family: 'Quicksand', sans-serif;
 
-  // #logo {
-  //   font-size: 3em;
-  //   text-align: center;
-  //   display: block;
-  //   line-height: 50px;
-  //   text-decoration: none;
-  //   color: $light;
-  //   font-family: $headingsfont;
-  //   padding-top: 20px;
-  // }
 
   p {
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   a {
-    // color: $light;
     display: block;
     text-align: center;
-  }
-
-  a:hover {
-    // color: $highlight
-  }
-
-  #logo:hover{
-    // color: $highlight
   }
 }

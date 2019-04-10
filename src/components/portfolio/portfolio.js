@@ -3,6 +3,30 @@ import React from "react";
 import '../../base-styles/base.scss';
 import './portfolio.scss';
 
+// Assets
+// Formidable Site
+import Homepage from "./assets/formidable-site/homepage.pdf";
+import WhatWeDo from "./assets/formidable-site/what-we-do.pdf";
+import OurWork from "./assets/formidable-site/our-work.pdf";
+import Careers from "./assets/formidable-site/careers.pdf";
+
+// Formidable Case Studies
+import Prix from "./assets/formidable-case-studies/prix.pdf";
+import PWA from "./assets/formidable-case-studies/starbucks-pwa.pdf";
+import StoreLocator from "./assets/formidable-case-studies/starbucks-store-locator.pdf";
+import RNPharm from "./assets/formidable-case-studies/walmart-react-native-pharmacy.pdf";
+
+// Formidable Collateral
+import Hiring from "./assets/formidable-collateral/hiring.pdf";
+import Biz from "./assets/formidable-collateral/flyer.pdf";
+import Nails from "./assets/formidable-collateral/nail-art.jpg";
+import Swag from "./assets/formidable-collateral/swag.jpg";
+
+// Formidable Social
+import URQL from "./assets/formidable-social-media/URQL.png";
+import Saga from "./assets/formidable-social-media/redux-saga.png";
+import Fast from "./assets/formidable-social-media/react-fast-compare.png";
+import Culture from "./assets/formidable-social-media/company-culture.png";
 
 class Portfolio extends React.Component {
 
@@ -46,49 +70,49 @@ class Portfolio extends React.Component {
               <a href="http://www.oceancommotion.fun/">Ocean Commotion Site &rarr;</a>
             </div>
             </section>
-            <section id="marketing-content">
             <h3>Tech Writing & Dev-Focused Marketing Content</h3>
+            <section id="marketing-content">
             <div>
-              <h4>Formidable.com Website Content</h4>
-              <img/>
+              <h4>Formidable Website Content</h4>
+              <img src={require("./assets/website.png")} alt="preview of the Formidable.com homepage"/>
               <p>Led a full redesign of Formidable.com to improve company branding and messaging. I wrote new website copy, updated the content structure, and worked with Formidable's team of in-house designers and developers to carry out the vision. As a result, key pages saw traffic increases of 100 - 200% and bounce rates improved by 30%.</p>
-              <p>Highlights:</p>
-              <a href="#">Homepage</a>
-              <a href="#">What We Do</a>
-              <a href="#">Our Work</a>
-              <a href="#">Careers</a>
+              <p><span>Highlights:</span></p>
+              <a href={Homepage} target="_blank">Homepage &rarr;</a>
+              <a href={WhatWeDo} target="_blank">What We Do &rarr;</a>
+              <a href={OurWork} target="_blank">Our Work &rarr;</a>
+              <a href={Careers} target="_blank">Careers &rarr;</a>
             </div>
             <div>
               <h4>Formidable Case Studies</h4>
-              <img/>
+              <img src={require("./assets/case-study.png")} alt="preview of the Starbucks PWA case study"/>
               <p>Working closely with developers and clients, I wrote technical case studies that captured Formidable's work as a JavaScript consultancy. The case studies were a key component for business development, as they provided a glimpse of Formidable's technical expertise to prospective clients.</p>
-              <p>Highlights:</p>
-              <a href="#">Starbucks Progressive Web App</a>
-              <a href="#">Prix.ai Dynamic Pricing Dashboard</a>
-              <a href="#">Starbucks Store Locator</a>
-              <a href="#">Walmart React Native Pharmacy</a>
+              <p><span>Highlights:</span></p>
+              <a href={PWA} target="_blank">Starbucks Progressive Web App &rarr;</a>
+              <a href={Prix} target="_blank">Prix.ai Dynamic Pricing Dashboard &rarr;</a>
+              <a href={StoreLocator} target="_blank">Starbucks Store Locator &rarr;</a>
+              <a href={RNPharm} target="_blank">Walmart React Native Pharmacy &rarr;</a>
             </div>
             <div>
               <h4>Formidable Marketing Collateral</h4>
-              <img/>
-              <p>I managed the conceptualization and creation of Formidable's suite of marketing collateral, from carefully written flyers to conference swag items.</p>
-              <p>Highlights:</p>
-              <a href="#">Business Development Flyer</a>
-              <a href="#">Hiring Flyer</a>
-              <a href="#">Nail Art Swag</a>
-              <a href="#">Other Swag</a>
+              <img src={require("./assets/swag-img.png")} alt="Preview of Formidable branded nail art"/>
+              <p>I managed the conceptualization and creation of Formidable's suite of marketing collateral, from carefully written flyers to conference swag items. Flyers were created to capture the essence of Formidable in a single page so both prospective clients and prospective employees could quickly glean a clear understanding of the company. Swag items were created to be both useful and fun- not just something that would go straight into the trash bin.</p>
+              <p><span>Highlights:</span></p>
+              <a href={Biz} target="_blank">Business Development Flyer &rarr;</a>
+              <a href= {Hiring} target="_blank">Hiring Flyer &rarr;</a>
+              <a href={Nails} target="_blank">Nail Art Swag &rarr;</a>
+              <a href={Swag} target="_blank">Other Swag &rarr;</a>
             </div>
             <div>
               <h4>Formidable Social Media</h4>
-              <img/>
+              <img src={require("./assets/social-preview.png")} alt="Preview of Formidable URQL social post"/>              
               <p>Through Twitter, Formidable was able to build a strong community, while cementing technical expertise. Because this account was developer focused, we regularly exceeded the metrics of our competitors on posts and were able to connect genuinely with our audience. The Formidable audience was extremely engaged and grew rapidly, increasing almost 140% from March 2017 to March 2018.</p>
-              <p>Highlights:</p>
-              <a href="#">URQL Open Source Release</a>
-              <a href="#">react-fast-compare Open Source Release</a>
-              <a href="#">redux-saga Blog Post Promotion</a>
-              <a href="#">Company Culture</a>
+              <p><span>Highlights:</span></p>
+              <a href={URQL} target="_blank">URQL Open Source Release &rarr;</a>
+              <a href={Fast} target="_blank">react-fast-compare Open Source Release &rarr;</a>
+              <a href={Saga} target="_blank">redux-saga Blog Post Promotion &rarr;</a>
+              <a href={Culture} target="_blank">Company Culture &rarr;</a>
             </div>
-            <h4>Want to know more? Check out my <a href="#">resume</a></h4>
+            {/* <h4>Want to know more? Check out my <a href="#">resume</a></h4> */}
           </section>
         </section>
       </>
