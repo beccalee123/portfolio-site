@@ -48,4 +48,39 @@
     }
   }
 
+  #marketing-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    div{
+      margin: 20px 10%;
+      width: 450px;
+      // border: 1px solid black;
+
+      h4{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 30px;
+        margin-bottom: 10px
+      }
+
+      img {
+        width: 450px;
+        border: 5px solid black;
+      }
+
+      p {
+        width: 450px;
+        margin: 10px 0px;
+      }
+      
+      span {
+        font-weight: 500;
+      }
+
+      a {
+        display: block;
+      }
+    }
+  }
+
 }

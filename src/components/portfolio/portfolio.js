@@ -46,10 +46,10 @@ class Portfolio extends React.Component {
               <a href="http://www.oceancommotion.fun/">Ocean Commotion Site &rarr;</a>
             </div>
             </section>
-            <section id="marketing-content">
             <h3>Tech Writing & Dev-Focused Marketing Content</h3>
+            <section id="marketing-content">
             <div>
-              <h4>Formidable.com Website Content</h4>
+              <h4>Formidable Website Content</h4>
               <img/>
               <p>Led a full redesign of Formidable.com to improve company branding and messaging. I wrote new website copy, updated the content structure, and worked with Formidable's team of in-house designers and developers to carry out the vision. As a result, key pages saw traffic increases of 100 - 200% and bounce rates improved by 30%.</p>
               <p>Highlights:</p>
