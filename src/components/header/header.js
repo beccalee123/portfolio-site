@@ -14,11 +14,11 @@ class Header extends React.Component {
             <li id="name">Becca Lee</li>
           </ul>
           <ul>
-            <div>
-            <li>About</li>
-            <li>Portfolio</li>
-            <li>Resume</li>
-            <li>Contact</li>
+            <div id="nav">
+            <li>about</li>
+            <li>portfolio</li>
+            <li>resume</li>
+            <li>contact</li>
             </div>
           </ul>
           

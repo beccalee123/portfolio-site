@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from "react-router-dom";
 
-import './styles/base.scss';
+import './base-styles/base.scss';
 import Header from './components/header/header.js';
 import About from './components/about/about.js';
 import Portfolio from './components/portfolio/portfolio.js';

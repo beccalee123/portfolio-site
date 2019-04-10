@@ -1,17 +1,21 @@
 nav {
 
+  height: 65px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  // border: 1px solid red;
+
   #name{
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
     font-size: 60px;
     text-transform: uppercase;
+    margin: 2px 5px 2px 5px;
   }
-
-  height: 50px;
-  width: 100%;
-  position: fixed;
-  display: grid;
-  grid-template-columns: 40% 1fr;
 
   div{
     display: flex;
@@ -19,14 +23,16 @@ nav {
     justify-content: space-evenly;
   }
 
-  a {
+  a, li {
     display: inline-block;
-    line-height: 50px;
     text-decoration: none;
-    // color: $light;
-    font-size: 1.25em;
-    // font-family: $headingsfont;
     margin: 0px 5px;
+  }
+
+  #nav {
+    line-height: 60px;
+    font-size: 20px;
+    // font-weight: 400;
   }
 
   a:hover {
