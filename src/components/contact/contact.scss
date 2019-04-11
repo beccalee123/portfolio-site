@@ -6,8 +6,12 @@
   height: 50%;
   border-bottom: 2px solid $highlight;
 
-  img{
+  img {
     width: 50px;
+  }
+  
+  p {
+    margin: 0px 10px;
   }
 
   img:hover {
