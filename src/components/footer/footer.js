@@ -11,7 +11,7 @@ class Footer extends React.Component {
       <>
         <footer>
           <p>&copy; Becca Lee, 2019</p>
-          <a href="https://github.com/beccalee123/portfolio-site">Source Code</a>
+          <a href="https://github.com/beccalee123/portfolio-site" target="_blank" rel="noopener noreferrer">Source Code</a>
         </footer>
       </>
     );
