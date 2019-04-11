@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Route } from "react-router-dom";
 
 import './base-styles/base.scss';
 import Header from './components/header/header.js';
