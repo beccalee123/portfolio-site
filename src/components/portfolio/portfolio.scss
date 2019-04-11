@@ -121,6 +121,11 @@
 @media screen and (max-width: 975px) and (min-width: 800px){
   #portfolio {
 
+    h2 {
+      padding-top: 120px;
+    }
+
+
     #tech-content{
 
       div{
@@ -167,6 +172,10 @@
 
 @media screen and (max-width: 800px){
   #portfolio {
+
+    h2 {
+      padding-top: 120px;
+    }
 
     #tech-content{
       display: flex;
