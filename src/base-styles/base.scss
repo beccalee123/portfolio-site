@@ -1,3 +1,6 @@
+@import "./variables.scss";
+
+
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 
 * {
@@ -5,16 +8,24 @@
 }
 
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: $bodyfont;
   font-size: 18px;
   font-weight: 300;
+  background-color: $light;
 }
 
 h2{
-  font-family: 'Quicksand', sans-serif;
+  font-family: $headersfont;
   font-weight: 300;
   font-size: 40px;
   text-transform: uppercase;
 }
 
+a:visited {
+  color: $dark;
+}
+
+a:hover {
+  color: $highlight;
+}
 

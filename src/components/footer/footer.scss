@@ -1,7 +1,9 @@
+@import "../../base-styles/variables.scss";
+
 footer {
   height: 60px;
   width: 100%;
-  font-family: 'Quicksand', sans-serif;
+  font-family: $headersfont;
 
 
   p {
@@ -13,5 +15,10 @@ footer {
   a {
     display: block;
     text-align: center;
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-weight: 400;
   }
 }

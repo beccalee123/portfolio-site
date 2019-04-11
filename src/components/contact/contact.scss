@@ -1,10 +1,18 @@
+@import "../../base-styles/variables.scss";
+
 #contact {
   text-align: center;
-  background-color: whitesmoke;
+  background-color: $medium;
   height: 50%;
+  border-bottom: 2px solid $highlight;
 
   img{
     width: 50px;
+  }
+
+  img:hover {
+    background-color: $highlight;
+    border-radius: 25%;
   }
   
   h2 {

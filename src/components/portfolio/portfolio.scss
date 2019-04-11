@@ -1,12 +1,17 @@
+@import "../../base-styles/variables.scss";
+
 #portfolio{
+
+  border-bottom: 2px solid $highlight;
+  padding-bottom: 40px;
 
   h2 {
     text-align: center;
-    margin-top: 40px;
+    padding-top: 70px;
   }
 
   h3 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: $headersfont;
     font-size: 30px;
     text-transform: lowercase;
     text-align: center;
@@ -14,27 +19,27 @@
   }
 
   #tech-content{
+    width: 95%;
+    margin: 0px auto;
     display: grid;
     grid-template-columns: 50% 50%;
 
     div{
-      margin: 20px 10%;
+      margin: 20px auto;
       width: 450px;
-      // border: 1px solid black;
 
       h4{
-        font-family: 'Quicksand', sans-serif;
+        font-family: $headersfont;
         font-size: 30px;
         margin-bottom: 10px
       }
 
       img {
         width: 450px;
-        border: 5px solid black;
+        border: 5px solid $dark;
       }
 
       p {
-        width: 450px;
         margin: 10px 0px;
       }
       
@@ -42,45 +47,173 @@
         font-weight: 500;
       }
 
+      .tech {
+        height: 40px;
+      }
+
       a {
         display: block;
+        text-decoration: none;
+        font-weight: 400;
+        color: $highlight - 30;
+      }
+
+      a:hover {
+        font-style: italic;
+        color: $highlight;
       }
     }
   }
 
   #marketing-content {
+    width: 95%;
+    margin: 0px auto;
     display: grid;
     grid-template-columns: 50% 50%;
 
     div{
-      margin: 20px 10%;
+      margin: 20px auto;
       width: 450px;
-      // border: 1px solid black;
+
 
       h4{
-        font-family: 'Quicksand', sans-serif;
+        font-family: $headersfont;
         font-size: 30px;
         margin-bottom: 10px
       }
 
       img {
         width: 450px;
-        border: 5px solid black;
+        border: 5px solid $dark;
       }
 
       p {
-        width: 450px;
         margin: 10px 0px;
       }
+
+      #market1{
+        height: 125px;
+      }
       
+      #market2{
+        height: 160px;
+      }
+
       span {
         font-weight: 500;
       }
 
       a {
         display: block;
+        text-decoration: none;
+        font-weight: 400;
+        color: $highlight - 30;
+      }
+
+      a:hover {
+        font-style: italic;
+        color: $highlight;
       }
     }
   }
+}
 
+@media screen and (max-width: 975px) and (min-width: 800px){
+  #portfolio {
+
+    #tech-content{
+
+      div{
+        width: 350px;
+  
+        img {
+          width: 350px;
+        }
+
+        p {
+          width: 350px;
+        }
+
+        .tech {
+          height: 60px;
+        }
+      }
+    }
+  
+    #marketing-content {
+  
+      div{
+        width: 350px;
+  
+        img {
+          width: 350px;
+        }
+  
+        p {
+          width: 350px;
+        }
+
+        #market1{
+          height: 160px;
+        }
+        
+        #market2{
+          height: 200px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px){
+  #portfolio {
+
+    #tech-content{
+      display: flex;
+      flex-direction: column;
+      width: 85%;
+      div{
+        width: 100%;
+  
+        img {
+          width: 100%;
+        }
+
+        p {
+          width: 100%;
+        }
+
+        .tech {
+          height: 100%;
+        }
+      }
+    }
+  
+    #marketing-content {
+      display: flex;
+      flex-direction: column;
+      width: 85%;
+
+
+      div{
+        width: 100%;
+  
+        img {
+          width: 100%;
+        }
+
+        p {
+          width: 100%;
+        }
+
+        #market1{
+          height: 100%;
+        }
+        
+        #market2{
+          height: 100%;
+        }
+      }
+    }
+  }
 }

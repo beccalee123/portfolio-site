@@ -1,7 +1,5 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
-
 import './header.scss';
 
 class Header extends React.Component {
@@ -11,24 +9,17 @@ class Header extends React.Component {
       <>
         <nav>
           <ul>
-            <li id="name">Becca Lee</li>
+            <li id="name"><a href="/">Becca Lee</a></li>
           </ul>
           <ul>
             <div id="nav">
-            <li>about</li>
-            <li>portfolio</li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#about">about</a></li>
             {/* <li>resume</li> */}
-            <li>contact</li>
+            <li><a href="#contact">contact</a></li>
             </div>
           </ul>
-          
-          
         </nav>
-        
-        {/* <Link to='/'>About</Link> */}
-        {/* <Link>Portfolio</Link> */}
-        {/* <Link>Resume</Link> */}
-        {/* <Link>Contact</Link> */}
       </>
     );
   }
