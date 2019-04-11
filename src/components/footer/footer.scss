@@ -15,5 +15,10 @@ footer {
   a {
     display: block;
     text-align: center;
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-weight: 400;
   }
 }
