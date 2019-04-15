@@ -2,6 +2,9 @@ import React from "react";
 
 import './header.scss';
 
+import Resume from "../portfolio/assets/becca-lee-resume.pdf";
+
+
 class Header extends React.Component {
 
   render() {
@@ -15,7 +18,7 @@ class Header extends React.Component {
             <div id="nav">
             <li><a href="#portfolio">portfolio</a></li>
             <li><a href="#about">about</a></li>
-            {/* <li>resume</li> */}
+            <li><a href={Resume} target="_blank" rel="noopener noreferrer">resume</a></li>
             <li><a href="#contact">contact</a></li>
             </div>
           </ul>

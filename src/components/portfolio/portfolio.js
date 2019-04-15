@@ -41,7 +41,7 @@ class Portfolio extends React.Component {
               <h4>DevFund</h4>
               <img src={require("./assets/dev-fund.png")} alt="preview of the DevFund website"/>
               <p><span>About: </span>DevFund is a proof-of-concept for a site that helps fund learning resources for new developers looking to break into the industry.</p>
-              <p class="tech"><span>Tech Used:</span> React | Node.js | SASS | MongoDB | PayPal API | Netlify | Heroku</p>
+              <p class="tech"><span>Tech Used:</span> React | Node.js | Sass | MongoDB | PayPal API | Netlify | Heroku</p>
               <a href="https://github.com/jbjbg/devfund-fe" target="_blank" rel="noopener noreferrer">GitHub Repo <span id="arrow">&rarr;</span></a>
               <a href="https://www.devfund.io/" target="_blank" rel="noopener noreferrer">DevFund Site &rarr;</a>
             </div>
