@@ -1,6 +1,6 @@
 @import "../../base-styles/variables.scss";
 
-#about{
+#about {
   background-color: $medium;
   padding: 105px 40px 40px 40px;
   display: grid;
@@ -22,23 +22,23 @@
   }
 }
 
-// Tablet view
-@media screen and (max-width: 875px){
+// Tablet/mobile view
+@media screen and (max-width: 875px) {
   #about {
     padding: 160px 10px 40px 10px;
     display: flex;
     flex-direction: column;
 
-    img{
+    img {
       margin: 0px auto;
       min-width: 325px;
     }
 
-    #about-content{
+    #about-content {
       width: 90%;
       margin: 0px auto;
 
-      h2{
+      h2 {
         margin-top: 30px;
         font-size: 35px;
       }
