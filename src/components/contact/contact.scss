@@ -25,10 +25,11 @@
   }
 
   ul {
-    width: 50%;
-    margin: 20px 25%;
+    width: 55%;
+    margin: 20px auto;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    justify-items: center;
 
     li {
       margin-bottom: 40px;
