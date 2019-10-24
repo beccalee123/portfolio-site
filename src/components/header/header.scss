@@ -1,7 +1,6 @@
 @import "../../base-styles/variables.scss";
 
 nav {
-
   height: 65px;
   width: 100%;
   background-color: $light;
@@ -10,7 +9,7 @@ nav {
   display: flex;
   border-bottom: 2px solid $highlight;
 
-  #name{
+  #name {
     font-family: $headersfont;
     font-weight: 300;
     font-size: 60px;
@@ -20,13 +19,14 @@ nav {
     min-width: 325px;
   }
 
-  div{
+  div {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
 
-  a, li {
+  a,
+  li {
     display: inline-block;
     text-decoration: none;
     margin: 0px 5px;
@@ -36,13 +36,11 @@ nav {
     line-height: 60px;
     font-size: 20px;
   }
-
 }
 
 // Tablet view
-@media screen and (max-width: 875px){
-  
-  nav{
+@media screen and (max-width: 875px) {
+  nav {
     height: 120px;
     flex-direction: column;
 
@@ -50,7 +48,7 @@ nav {
       text-align: center;
     }
 
-    #nav{
+    #nav {
       display: flex;
       align-content: left;
     }

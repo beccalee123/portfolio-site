@@ -1,25 +1,35 @@
 import React from "react";
 
-import './header.scss';
+import "./header.scss";
 
 import Resume from "../portfolio/assets/becca-lee-resume.pdf";
 
-
 class Header extends React.Component {
-
   render() {
     return (
       <>
         <nav>
           <ul>
-            <li id="name"><a href="/">Becca Lee</a></li>
+            <li id="name">
+              <a href="/">Becca Lee</a>
+            </li>
           </ul>
           <ul>
             <div id="nav">
-            <li><a href="#portfolio">portfolio</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href={Resume} target="_blank" rel="noopener noreferrer">resume</a></li>
-            <li><a href="#contact">contact</a></li>
+              <li>
+                <a href="#portfolio">portfolio</a>
+              </li>
+              <li>
+                <a href="#about">about</a>
+              </li>
+              <li>
+                <a href={Resume} target="_blank" rel="noopener noreferrer">
+                  resume
+                </a>
+              </li>
+              <li>
+                <a href="#contact">contact</a>
+              </li>
             </div>
           </ul>
         </nav>
