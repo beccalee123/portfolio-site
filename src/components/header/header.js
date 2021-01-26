@@ -17,12 +17,6 @@ class Header extends React.Component {
           <ul>
             <div id="nav">
               <li>
-                <a href="#portfolio">portfolio</a>
-              </li>
-              <li>
-                <a href="#about">about</a>
-              </li>
-              <li>
                 <a href={Resume} target="_blank" rel="noopener noreferrer">
                   resume
                 </a>

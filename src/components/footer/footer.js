@@ -8,7 +8,7 @@ class Footer extends React.Component {
     return (
       <>
         <footer>
-          <p>&copy; Becca Lee, 2019</p>
+          <p>&copy; Becca Lee 2021</p>
           <a
             href="https://github.com/beccalee123/portfolio-site"
             target="_blank"

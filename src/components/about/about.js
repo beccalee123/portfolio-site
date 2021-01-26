@@ -16,19 +16,25 @@ class About extends React.Component {
           <div id="about-content">
             <h2>Nice to Meet You!</h2>
             <p>
-              My name's Becca. I'm a Seattle-based software developer with a
+              My name's Becca. I'm a Seattle-based front end developer with a
               background in marketing who believes that user-centric
               development, collaboration, and strong communication help make
               better software.
             </p>
             <p>
+              I work primarily in JavaScript, TypeScript, React, style
+              libraries, and CSS to build pixel perfect user interfaces and
+              online experiences. I approach software development with a strong
+              user focus that puts accessibility, usability, and sustainability
+              at the forefront.
+            </p>
+            <p>
               When I'm not coding, you can find me cuddling cats, eating ice
-              cream, baking pies, playing pinball, petting all the dogs, going
-              on hikes, and watching pro-wrestling (yes, really).
+              cream, reading a page-turner, baking, petting all the dogs,
+              playing Zelda, and watching pro-wrestling (yes, really).
             </p>
             <p>
               Want to know more about my work? Check out my{" "}
-              <a href="#portfolio">Portfolio</a> and{" "}
               <a href={Resume} target="_blank" rel="noopener noreferrer">
                 resume
               </a>
