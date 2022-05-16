@@ -5,6 +5,7 @@ import Header from "./components/header/header.js";
 import About from "./components/about/about.js";
 import Contact from "./components/contact/contact.js";
 import Footer from "./components/footer/footer.js";
+import {FunWithCode} from "./components/funWithCode/funWithCode.js";
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
       <>
         <Header />
         <About />
+        <FunWithCode />
         <Contact />
         <Footer />
       </>
