@@ -1,0 +1,110 @@
+@import "../../base-styles/variables.scss";
+
+#funWithCode {
+  border-bottom: 2px solid $highlight;
+  padding-bottom: 40px;
+  width: 100%;
+  margin: 0px auto;
+
+  h2 {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+
+  #projects {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    align-items: center;
+    column-gap: 50px;
+    width: 80%;
+    margin: 0px auto;
+
+    .project {
+      display: flex;
+      flex-direction: column;
+      margin: 20px 0px;
+      width: 500px;
+
+      img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border: 5px solid grey;
+        margin-bottom: 10px;
+      }
+
+      a:hover {
+        font-style: italic;
+        color: $highlight;
+        img {
+          border: 5px solid $highlight;
+        }
+      }
+    }
+  }
+
+  #more {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+
+    a {
+      background-color: $highlight;
+      padding: 20px;
+      border-radius: 5px;
+      text-decoration: none;
+
+      &:hover {
+        color: $light;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 800px) {
+  #funWithCode {
+    h2 {
+      padding-top: 120px;
+    }
+
+    #projects {
+      width: 80%;
+      column-gap: 25px;
+      .project {
+        width: 100%;
+
+        img {
+          width: 100%;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #funWithCode {
+    h2 {
+      padding-top: 120px;
+    }
+
+    #projects {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      .project {
+        width: 100%;
+
+        img {
+          width: 100%;
+          height: 300px;
+        }
+      }
+    }
+  }
+}

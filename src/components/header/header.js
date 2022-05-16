@@ -22,6 +22,9 @@ class Header extends React.Component {
                 </a>
               </li>
               <li>
+                <a href="#funWithCode">fun with code</a>
+              </li>
+              <li>
                 <a href="#contact">contact</a>
               </li>
             </div>
